@@ -1,25 +1,14 @@
 {
   "rules": {
     "class-name": true,
-    "comment-format": [
-      true,
-      "check-space"
-    ],
+    "comment-format": [true, "check-space"],
     "eofline": true,
-    "indent": [
-      true,
-      "spaces"
-    ],
-    "linebreak-style": [
-      true,
-      "LF"
-    ],
+    "indent": [true, "spaces"],
+    "linebreak-style": [true, "LF"],
     "member-access": false,
     "no-angle-bracket-type-assertion": true,
     "no-bitwise": true,
-    "no-consecutive-blank-lines": [
-      true
-    ],
+    "no-consecutive-blank-lines": [true],
     "no-debugger": true,
     "no-default-export": true,
     "no-duplicate-variable": true,
@@ -30,10 +19,7 @@
     "no-trailing-whitespace": true,
     "no-unused-expression": true,
     "no-var-keyword": true,
-    "object-literal-key-quotes": [
-      true,
-      "as-needed"
-    ],
+    "object-literal-key-quotes": [true, "as-needed"],
     "object-literal-shorthand": true,
     "object-literal-sort-keys": true,
     "one-line": [
@@ -43,21 +29,10 @@
       "check-else",
       "check-open-brace"
     ],
-    "one-variable-per-declaration": [
-      true,
-      "ignore-for-loop"
-    ],
-    "ordered-imports": [
-      true
-    ],
-    "quotemark": [
-      true,
-      "single"
-    ],
-    "semicolon": [
-      true,
-      "never"
-    ],
+    "one-variable-per-declaration": [true, "ignore-for-loop"],
+    "ordered-imports": [true],
+    "quotemark": [true, "single"],
+    "semicolon": [true, "never"],
     "trailing-comma": [
       true,
       {
@@ -65,10 +40,7 @@
         "singleline": "never"
       }
     ],
-    "triple-equals": [
-      true,
-      "allow-null-check"
-    ],
+    "triple-equals": [true, "allow-null-check"],
     "use-isnan": true,
     "whitespace": [
       true,

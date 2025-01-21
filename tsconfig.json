@@ -5,13 +5,10 @@
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
     "skipLibCheck": true,
-    "lib": [
-      "dom",
-      "es2015",
-      "es2016.array.include"
-    ],
+    "lib": ["dom", "es2015", "es2016.array.include"],
     "module": "commonjs",
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "preserveConstEnums": true,
@@ -20,11 +17,6 @@
     "strict": true,
     "target": "es2015"
   },
-  "files": [
-    "index.tsx",
-    "test.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "files": ["index.tsx", "test.tsx"],
+  "exclude": ["node_modules"]
 }
