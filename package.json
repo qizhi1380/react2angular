@@ -36,8 +36,8 @@
   },
   "homepage": "https://github.com/alissaVrk/react2angular#readme",
   "peerDependencies": {
-    "react": ">=18",
-    "react-dom": ">=18"
+    "react": ">=19",
+    "react-dom": ">=19"
   },
   "devDependencies": {
     "@types/angular": "^1.6.54",
