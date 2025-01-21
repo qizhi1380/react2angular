@@ -15,7 +15,7 @@ import { createRoot, Root } from "react-dom/client";
  *   const AngularComponent = react2angular(ReactComponent, ['foo'])
  *   ```
  */
-export function react2angular<Props extends {}>(
+export function react2angular<Props>(
   Class: React.ComponentType<Props>,
   bindingNames: (keyof Props)[] | null = null,
   injectNames: string[] = []
